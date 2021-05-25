@@ -1,0 +1,2 @@
+module cash3 {
+}

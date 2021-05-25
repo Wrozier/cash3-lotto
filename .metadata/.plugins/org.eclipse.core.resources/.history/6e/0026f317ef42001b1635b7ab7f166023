@@ -1,0 +1,60 @@
+package com.practice.cash;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public	class cash3random {
+
+			public static void main(String[] args) {
+				Scanner mcash3 = new Scanner(System.in);  // Create a Scanner object
+			    System.out.println("Enter midday cash3");
+			    
+			    Scanner ecash3 = new Scanner(System.in);  // Create a Scanner object
+			    System.out.println("Enter evening cash3");
+			    
+			    Scanner ncash3 = new Scanner(System.in);  // Create a Scanner object
+			    System.out.println("Enter evening cash3");
+				
+			    String lastNumbers = mcash3.nextLine();  // Read user input
+			    System.out.println("Numbers that fell: " + lastNumbers);  // Output user input
+			    
+			    String eveningNumbers = ecash3.nextLine();  // Read user input
+			    System.out.println("Numbers that fell: " + eveningNumbers);  // Output user input
+			    
+			    String nightNumbers = ecash3.nextLine();  // Read user input
+			    System.out.println("Numbers that fell: " + nightNumbers);
+
+
+			Random cash3 = new Random();
+		   System.out.println(	
+			cash3.nextInt(10) + " " + 
+			cash3.nextInt(10) + " "+ 
+			cash3.nextInt(10));
+
+		}
+
+	}
+	/*	
+	String[]numbers;
+	numbers = new String[10];
+	numbers[0] = "00";
+	numbers[1]=  "01";
+	numbers[2]=  "02";
+    numbers[3]=  "03";
+	numbers[4]=  "04";
+	numbers[5]=  "05";
+	numbers[6]=  "06";
+    numbers[7]=  "07";
+    numbers[8]=  "08";
+    numbers[9]=  "09";
+    
+ 	
+	
+	
+int random = (int) (Math.random()*10);
+	
+System.out.println("The random number is:" + numbers[random] + " " + numbers[random] + " " + numbers[random]);
+
+  }
+
+		 */

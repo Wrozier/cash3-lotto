@@ -1,0 +1,52 @@
+package com.practice.cash;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public	class cash3random {
+
+			public static void main(String[] args) {
+				Scanner lcash3 = new Scanner(System.in);  // Create a Scanner object
+			    System.out.println("Enter midday cash3"+ "");
+			    
+			 
+				
+			    String lastNumbers = lcash3.nextLine();  // Read user input
+			    System.out.println("mNumbers that fell: " + lastNumbers);  // Output user input
+			    
+			    
+
+
+			Random cash3 = new Random();
+		   System.out.println(	
+			cash3.nextInt(10) + " " + 
+			cash3.nextInt(10) + " "+ 
+			cash3.nextInt(10));
+
+		}
+
+	}
+	/*	
+	String[]numbers;
+	numbers = new String[10];
+	numbers[0] = "00";
+	numbers[1]=  "01";
+	numbers[2]=  "02";
+    numbers[3]=  "03";
+	numbers[4]=  "04";
+	numbers[5]=  "05";
+	numbers[6]=  "06";
+    numbers[7]=  "07";
+    numbers[8]=  "08";
+    numbers[9]=  "09";
+    
+ 	
+	
+	
+int random = (int) (Math.random()*10);
+	
+System.out.println("The random number is:" + numbers[random] + " " + numbers[random] + " " + numbers[random]);
+
+  }
+
+		 */
